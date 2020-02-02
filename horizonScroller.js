@@ -23,8 +23,7 @@ function sliderElement(id,minRange, maxRange, curPos) {
 		
 	}	
 	
-	function smoothSliding(e){
-	
+	function smoothSliding(e){	
 		var target = e.clientX;
 		//normalaized according to our Axis		
 		var steps = Math.abs(target-touchCursor.offsetLeft);		
