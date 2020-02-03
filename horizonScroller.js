@@ -8,7 +8,7 @@ function sliderElement(id,minRange, maxRange, curPos) {
 	var slideLocation = curPos;
 		
 	//consts for nice movment of the scrolling
-	const timeInt = 1;const slowStepBy = 80;
+	const timeInt = 1;const slowStepBy = 40;
 	var touchCursor = slider.querySelector('.input-range__slider-container');
 	var lineSpan   = slider.querySelector('.input-range__track--active');
 	var curValElem   = slider.querySelector(".input-range__label--value");
