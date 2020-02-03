@@ -28,9 +28,7 @@
     -webkit-transform: none;
             transform: none; }
 
-.input-range__slider-container {
-  /*-webkit-transition: left 0.3s ease-out;*/
-  /*transition: left 0.3s ease-out;*/ }
+
 
 .input-range__label {
   color: #aaaaaa;
@@ -45,8 +43,7 @@
   bottom: -1.4rem;
   position: absolute; }
 
-.input-range__label--min {
-  left: 0; }
+
 
 .input-range__label--max {
   right: 0; }
