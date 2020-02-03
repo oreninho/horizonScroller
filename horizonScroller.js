@@ -28,7 +28,7 @@ function sliderElement(id,minRange, maxRange, curPos) {
 		var target = e.clientX>=ranges[1]?ranges[1]:e.clientX;		
 		if (target < ranges[0])
 			target = ranges[0];	
-		
+		target -= slider.offsetLeft;
 		//normalaized according to our Axis, minimum step (FIX)		
 		var steps = Math.abs(target-touchCursor.offsetLeft)/pixelRatio;		
 		if (steps<1) 
